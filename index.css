@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img/gettyimages-sharing-food.jpg);
+    background-size: cover;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 40px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.logo h1 span{
+    color: orangered;
+}
+
+.menu{
+    margin-right: 90px;
+}
+
+.menu ul li{
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color ease-in-out .2s;
+}
+
+.menu ul li a:hover{
+    color: orangered;
+    padding: 6px 0px;
+    border-bottom: 2px solid #000;
+    letter-spacing: 1px;
+    transform: scale(1.1);
+}
+
+.events button{
+    margin-left: 10px;
+    background-color: orangered;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color ease-in-out .2s;
+}
+
+.events button:hover{
+    background-color: transparent;
+    color: orangered;
+    border: 1px solid orangered;
+    transform: scale(1.1);
+}
+
+.form-container{
+    max-width: 500px;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container h2{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    background-color: #fff;
+    margin-bottom: 5px;
+    max-width: 100%;
+    font-size: 40px;
+    padding: 10px;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    gap: 20px;
+    padding: 1.2rem;
+}
+
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 2px;
+}
+
+.form-inputs label{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.form-inputs input{
+    padding: 10px;
+    outline: none;
+}
+
+.form-inputs select{
+    padding: 10px;
+    outline: none;
+}
+
+.payment h3{
+    text-transform: uppercase;
+}
+
+.payment .pay{
+    display: block;
+    padding: 5px;
+}
+
+.submit-btn{
+    padding: 10px;
+    background-color: orangered;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: orange;
+}
+
